@@ -35,10 +35,12 @@ public class Author {
     public char getGender() {
         return gender;
     }
+    @Override
     public String toString() {
-        return "Author: " + getName() + ", " + getEmail() + ", " + getGender();
+        return "Author: " + getName() + " (" + getGender() + "), " + getEmail();
     }
 }
+
 </pre>
 
 # Класс TestAuthor
